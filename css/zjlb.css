@@ -1,0 +1,40 @@
+
+		html,body{font-size: 20px;}
+		*{margin: 0;padding: 0;}
+		body{font-family: "微软雅黑","黑体";}
+		@font-face {
+  			font-family: 'iconfont';
+  			src: url('../fonts/iconfont.eot');
+  			src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  			url('../fonts/iconfont.woff') format('woff'),
+  			url('../fonts/iconfont.ttf') format('truetype'),
+  			url('../fonts/iconfont.svg#iconfont') format('svg');
+		}
+		i{
+        	font-family:"iconfont" !important;
+        	font-style:normal;
+        	-webkit-font-smoothing: antialiased;
+        	-webkit-text-stroke-width: 0.2px;
+        	-moz-osx-font-smoothing: grayscale;
+		}
+		nav{width: 18rem;border-top: 0.05rem solid #f2f2f2;line-height: 2.1rem;}
+		nav>i{font-size: 0.9rem;}
+		nav>i:first-child{float: left;margin-left: 0.75rem;}
+		nav>i:last-child{float: right;margin-right: 0.75rem;}
+		nav>.a>a{text-decoration: none;display: block;width: 3.725rem;border: 0.05rem solid #3495e8;color: #3495e8;float: left;line-height: 1.4rem;font-size: 0.75rem;text-align: center;margin-top: 0.35rem;}
+		nav>.a{width: 7.68rem;margin: 0 auto;}
+		nav>.a>a:hover{color: white;background-color: #3495e8;}
+		nav>.a>a:last-child{border-left: none;}
+
+		.main{width: 17.35rem;float: right;border-top: 0.25rem solid #f2f2f2;}
+		.main>.big-box{width: 8.1rem;margin-right: 0.575rem;margin-top: 0.425rem;float: left;position: relative;}
+		.main img{width: 8.1rem;}
+		.main>.big-box>.box{width: 0.675rem;line-height: 0.75rem;text-align: center;background-color: #3495e8;border-radius: 0.125rem;color: white;font-size: 0.425rem;position: absolute;top: 0.375rem;left: 0.375rem;}
+		.main>.big-box2>.box{background-color: #939393;}
+		.main>.big-box>.p-pic-top{width: 2.05rem;font-size: 0.68rem;position: absolute;top: 1.375rem;left: 0.375rem;}
+		.main>.big-box>p{color: white;}
+		.main>.big-box>span{width: 4.8rem;font-size: 0.1rem;color: white;position: absolute;top: 2.15rem;left: 0.375rem;}
+		.main>.big-box>.a-pic-top{display: block;text-decoration: none;width: 1.175rem;position: absolute;top: 1.15rem;left: 6.375rem;}
+		.main>.big-box>.a-pic-top>i{color: #3495e8;font-size: 1.075rem;}
+		.main>.big-box>.p-pic-bot{width: 2.575rem;font-size: 0.65rem;color: white;position: absolute;top: 7rem;left: 3rem;}
+		.main>.big-box>.a-pic-bot{display: block;text-decoration: none;width: 4.25rem;border: 0.05rem solid white;font-size: 0.75rem;line-height: 1.375rem;text-align: center;color: white;position: absolute;top: 8rem;left: 2rem;}
